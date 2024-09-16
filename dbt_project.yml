@@ -43,4 +43,6 @@ models:
       +materialized: table
     mart_dbtable:
       +materialized: view
+    fact:
+      +materialized: table
     
